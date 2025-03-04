@@ -1,0 +1,91 @@
+/* Task Manager Container */
+.task-manager {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #42a5f5, #478ed1);
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Input & Button */
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.task-input input:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.task-input button {
+  background: #ffeb3b;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.task-input button:hover {
+  background: #fdd835;
+}
+
+/* Task List */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.task-list li:hover {
+  transform: scale(1.02);
+}
+
+/* Delete Button */
+.remove-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5
+}
